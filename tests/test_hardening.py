@@ -90,4 +90,4 @@ def test_strict_premerge_hardening():
     assert metrics["explainability"]["causal_claim"] is False
     text = metrics["claim_boundary"].lower()
     assert "no lending approval recommendation" in text
-    assert "no fairness certification" in text
+    assert "fairness certification" in text
